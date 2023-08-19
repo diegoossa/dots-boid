@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/USS/Styles.uss?fileID=7433441132597879392&amp;guid=e8d31a900f618bf45a0f8cc1b4323037&amp;type=3#Styles" />
+    <ui:VisualElement name="container" style="flex-grow: 1; align-items: stretch;">
+        <ui:VisualElement name="top-panel" />
+        <ui:VisualElement name="bottom-panel" style="align-items: center; position: absolute; bottom: 0; width: 100%;">
+            <ui:SliderInt picking-mode="Ignore" label="0" value="0" high-value="2048" name="spawn-count-slider" show-input-field="false" style="width: 50%; flex-direction: column; align-items: center; flex-wrap: nowrap; bottom: 50px; color: rgb(255, 255, 255); text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.71); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; letter-spacing: 50px; -unity-text-align: upper-center;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

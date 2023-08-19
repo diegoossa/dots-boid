@@ -1,0 +1,35 @@
+* {
+    -unity-font: url('project://database/Assets/Fonts/Outfit/Outfit-Regular.ttf?fileID=12800000&guid=c7047be81775be540ac4cec92db74fb0&type=3#Outfit-Regular');
+    -unity-font-definition: url('project://database/Assets/Fonts/Outfit/Outfit-Regular%20SDF.asset?fileID=11400000&guid=9e0e6737d97d97e44b50eaa2416a8bcf&type=2#Outfit-Regular SDF');
+    font-size: 24px;
+}
+
+.unity-base-slider__label {
+    margin: 0;
+    padding: 0;
+}
+
+.unity-base-slider:focus > .unity-base-slider__label {
+   color:  #ffffff;
+}
+
+.unity-base-slider__tracker {
+    border-width: 0;
+    background-color: rgba(91, 91, 91, 0.5);
+    border-radius: 2px;
+}
+
+.unity-base-slider__drag-container {
+}
+
+.unity-base-slider__dragger {
+    border-width: 0;
+    border-radius: 10px;
+    width: 20px;
+    height: 10px;
+    top: 23px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
